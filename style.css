@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;container
+}
+#container{
+    width: 80%;
+    margin: auto;
+}
+header{
+    border-bottom: 3px solid #36d7b7;
+    margin: 0 0 40px 0;
+}
+h2 {
+    color: #F2784B;
+}
+h3 {
+    color: #3498DB;
+}
+img{
+    width: 300px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    background-color: #eee;
+    padding: 10px 32px 32px;
+    margin: 32px;
+}
