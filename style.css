@@ -13,22 +13,27 @@ h2 {
     color: #F2784B;
 }
 h3 {
-    color: #3498DB;
+    color: #10BA98;
 }
 p {
     max-width: 700px;
 }
 a {
     text-decoration: none;
+    color: #3498DB;
+}
+a:hover {
+    font-style: italic;
+    color: #006494;
 }
 img{
     width: 300px;
 }
-.assignment-list {
+#week-list {
     list-style: none;
     padding: 0;
 }
-.assignment-item {
+.week-item {
     background-color: #eee;
     padding: 10px 32px 32px;
     margin: 32px;
