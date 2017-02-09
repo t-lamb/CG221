@@ -18,20 +18,20 @@ h3 {
 p {
     max-width: 700px;
 }
+a {
+    text-decoration: none;
+}
 img{
     width: 300px;
 }
-ul{
+.assignment-list {
     list-style: none;
     padding: 0;
 }
-li{
+.assignment-item {
     background-color: #eee;
     padding: 10px 32px 32px;
     margin: 32px;
-}
-a {
-    text-decoration: none;
 }
 .screenshot {
     width: 800px;
