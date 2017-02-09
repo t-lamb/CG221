@@ -2,7 +2,7 @@
 Design and Authoring for Interactive Media at FIT
 
 <a href="https://docs.google.com/document/d/152AwrUuqHmqgYsu49s452VNzr2XAOTtThXVRnNUX5xc/edit?usp=sharing">Class Syllabus</a><br>
-<a href="https://t-lamb.github.io/CG221/">Class Github page</a>
+<a href="https://t-lamb.github.io/CG221/">Class Website</a>
 
 <hr>
 
@@ -24,9 +24,9 @@ Luis Montalvo <a href="https://luismfit.github.io/CG221/">Website</a> | <a href=
 <br>
 Mollie Soliman <a href="https://sol1143.github.io/CG221/">Website</a> | <a href="https://github.com/sol1143/CG221">Github</a>
 <br>
-Rebecca Cocks <a href="https://pootiedundidit.github.io/CG221/">Website</a> | <a href="https://github.com/pootiedundidit/CG221">Github</a>
+Rebecca Chan <a href="https://rebecca-chan.github.io/CG221/">Website</a> | <a href="https://github.com/rebecca-chan/CG221">Github</a>
 <br>
-Rebecca Chan <a href="#">Website</a> | <a href="#">Github</a>
+Rebecca Cocks <a href="https://pootiedundidit.github.io/CG221/">Website</a> | <a href="https://github.com/pootiedundidit/CG221">Github</a>
 <br>
 Veronica Lopez <a href="https://veronica-lopez19.github.io/CG221/">Website</a> | <a href="https://github.com/veronica-lopez19/CG221">Github</a>
 
