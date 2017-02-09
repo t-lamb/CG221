@@ -15,6 +15,9 @@ h2 {
 h3 {
     color: #3498DB;
 }
+p {
+    max-width: 700px;
+}
 img{
     width: 300px;
 }
@@ -26,4 +29,11 @@ li{
     background-color: #eee;
     padding: 10px 32px 32px;
     margin: 32px;
+}
+a {
+    text-decoration: none;
+}
+.screenshot {
+    width: 800px;
+    max-width: 100%;
 }
