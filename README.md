@@ -6,7 +6,8 @@ Design and Authoring for Interactive Media at FIT
 
 <hr>
 
-<a href="https://crosales97.github.io/CG221/">Casey Rosales</a><br>
+Casey Rosales <a href="https://crosales97.github.io/CG221/">Website</a> | <a href="https://github.com/crosales97/CG221">Github</a>
+<br>
 <a href="https://ginaienopoli.github.io/CG221/">Gina Ienopoli</a><br>
 <a href="https://yenhwi.github.io/CG221/">Hellen</a><br>
 <a href="https://jwagner25.github.io/CG221/">Joseph Wagner</a><br>
