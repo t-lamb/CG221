@@ -8,10 +8,6 @@ body {
     margin: auto;
     max-width: 1024px;
 }
-img {
-    width: 100%;
-	max-width: 900px;
-}
 
 /*---TYPOGRAPHY---*/
 p {
