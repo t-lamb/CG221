@@ -4,98 +4,381 @@
         <meta charset="utf-8">
         <title>CG221</title>
         <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="normalize.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
     </head>
     <body>
         <div id="container">
             <header>
-                <h1>Design &amp; Authoring for Interactive Media &mdash; Spring 2017</h1>
+                <a id="logo" href="index.html">
+                    <img id="logo-svg" src="imgs/cg221logo.svg">
+                    CG221
+                </a>
+                <div id="nav">
+                    <a href="#schedule">Schedule</a>
+                    <a href="students.html">Students</a>
+                    <a href="resources.html">Resources</a>
+                </div>
             </header>
 
-            <p>
-                Welcome to CG221.<br>
-                Instructor: Teresa Lamb<br>
-                <a href="https://docs.google.com/document/d/152AwrUuqHmqgYsu49s452VNzr2XAOTtThXVRnNUX5xc/edit?usp=sharing">Syllabus</a><br>
-                <a href="https://github.com/t-lamb/CG221">Github</a>
-            </p>
-            <img src="https://media.giphy.com/media/q884UCN54jwGc/giphy.gif">
-            <h2>Weekly Assignments</h2>
-            <ul id="week-list">
-                <li class="week-item">
-                    <h3>Week 1 - February 1</h3>
-                    <ul class="assignment-list">
-                        <li class="assignment-item">
-                            Create a website - <a href="https://github.com/t-lamb/CG221/blob/master/template.html">Template</a><br>
-                        </li>
-                        <li class="assignment-item">
-                            <a href="mfi.hmtl">My Favorite Internet - instructions</a><br>
-                        </li>
-                        <li class="assignment-item">
-                            <a href="mfi1.html">My Favorite Internet - example</a>
-                        </li>
-                        <li class="assignment-item">
-                            Start Codecademy lesson on
-                            <a href="https://www.codecademy.com/learn/learn-html-css">HTML &amp; CSS</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="week-item">
-                    <h3>Week 2 - February 8</h3>
-                    My Favorite Internet
-                </li>
-                <li class="week-item">
-                    <h3>Week 3 - February 15</h3>
-                    My Favorite Internet
-                </li>
-                <li class="week-item">
-                    <h3>Week 4 - February 22</h3>
-                    My Favorite Internet
-                </li>
-                <li class="week-item">
-                    <h3>Week 5 - March 1</h3>
-                    My Favorite Internet
-                </li>
-                <li class="week-item">
-                    <h3>Week 6 - March 8</h3>
-                    My Favorite Internet
-                </li>
-                <li class="week-item">
-                    <h3>Week 7 - March 15</h3>
-                    My Favorite Internet
-                </li>
-                <li class="week-item">
-                    <h3>Week 8 - March 22</h3>
-                    My Favorite Internet
-                </li>
-                <li class="week-item">
-                    <h3>Week 9 - March 29</h3>
-                    My Favorite Internet
-                </li>
-                <li class="week-item">
-                    <h3>Week 10 - April 5</h3>
-                    My Favorite Internet
-                </li>
-                <li class="week-item">
-                    <h3>Week 11 - April 19</h3>
-                    My Favorite Internet
-                </li>
-                <li class="week-item">
-                    <h3>Week 12 - April 26</h3>
-                    My Favorite Internet
-                </li>
-                <li class="week-item">
-                    <h3>Week 13 - May 3</h3>
-                    My Favorite Internet
-                </li>
-                <li class="week-item">
-                    <h3>Week 14 - May 10</h3>
-                    Work on Final
-                </li>
-                <li class="week-item">
-                    <h3>Week 15 - May 17</h3>
-                    Final Project Due
-                </li>
-            </ul>
-        </div><!--end container-->
+            <div id="main">
+                <section id="overview">
+                    <h1>Design &amp; Authoring for Interactive Media</h1>
+                    <h4>Fashion Institute of Technology<br>
+                    Department of Computer Graphics</h4>
+                    <p>
+                        <span class="label">Instructor:</span> Teresa Lamb<br>
+                        <span class="label">Email:</span> teresa_lamb [at] fitnyc.edu<br>
+                        <span class="label">Class Time:</span> Wednesdays 6:30 - 9:30pm<br>
+                    </p>
+                    <p>
+                        <a href="https://docs.google.com/document/d/152AwrUuqHmqgYsu49s452VNzr2XAOTtThXVRnNUX5xc/edit?usp=sharing">
+                            <img class="link-svg" src="imgs/doc.svg">
+                            Syllabus</a><br>
+                        <a href="https://github.com/t-lamb/CG221">
+                            <img class="link-svg" src="imgs/github.svg">
+                            Github
+                        </a>
+                    </p>
+                </section>
+
+                <section id="schedule">
+                <a name="schedule"></a>
+                    <h1>Class Schedule &mdash; Spring 2017</h1>
+                    <div class="week-item">
+                        <h2>Week 1 - Feb 1</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            Course Intro
+                        </p>
+                        <ul class="assignment-list">
+                            <li>
+                                Introductions
+                            </li>
+                            <li>
+                                Review Syllabus
+                            </li>
+                        </ul>
+                        <p>
+                            Intro to Web
+                        </p>
+                        <ul class="assignment-list">
+                            <li>
+                                Informal Quiz
+                            </li>
+                            <li>
+                                Set up Github account. Make a new repository named CG221.
+                            </li>
+                            <li>
+                                Set up <a href="https://pages.github.com/">Github page</a> for CG221
+                            </li>
+                            <li>
+                                Get familiar with <a href="https://atom.io/">Atom</a>
+                            </li>
+                        </ul>
+                        <h3>For Next Class</h3>
+                        <p>
+                            Create your new website. You will use this site to post links to your homework assignments.
+                        </p>
+                        <ul class="assignment-list">
+                            <li>
+                                Add index.html page to CG221 repo. This will be the code for your website.
+                            </li>
+                            <li>
+                                Use this <a href="https://github.com/t-lamb/CG221/blob/master/template.html">template</a> to structure your website.
+                            </li>
+                            <li>
+                                Add link to My Favorite Internet entry.
+                            </li>
+                        </ul>
+                        <p>
+                            My Favorite Internet
+                        </p>
+                        <ul class="assignment-list">
+                            <li>
+                                <a href="mfi.hmtl">Instructions</a>
+                            </li>
+                            <li>
+                                <a href="mfi1.html">Example</a>
+                            </li>
+                        </ul>
+                        <p>
+                            Codecademy lesson on <a href="https://www.codecademy.com/learn/learn-html-css">HTML &amp; CSS</a>
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 2 - Feb 8</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            Intro to CSS
+                        </p>
+                        <ul class="assignment-list">
+                            <li>
+                                Adding images
+                            </li>
+                            <li>
+                                <a href="http://www.w3schools.com/html/html_css.asp">CSS Guide</a>
+                            </li>
+                            <li>
+                                Add CSS to your website using <a href="http://www.w3schools.com/tags/tag_link.asp">link tag.</a>
+                            </li>
+                            <li>
+                                <a href="http://www.w3schools.com/cssref/">CSS Reference</a>
+                            </li>
+                        </ul>
+                        <p>
+                            Share MFI
+                        </p>
+
+                        <h3>For Next Class</h3>
+                        <p>
+                            Make a bio page for yourself.
+                        </p>
+                        <ul class="assignment-list">
+                            <li>
+                                Include at least one image, a paragraph about yourself, and add CSS to express your personal style.
+                            </li>
+                            <li>
+                                Have fun, and be prepared to share next week!
+                            </li>
+                        </ul>
+                        <p>
+                            Read Ch 1 &amp; 2 of <em>Don't Make Me Think</em>
+                        </p>
+                        <p>
+                            My Favorite Internet
+                        </p>
+                        <p>
+                            Continue Codecademy lesson on <a href="https://www.codecademy.com/learn/learn-html-css">HTML &amp; CSS</a>
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 3 - Feb 15</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            Designing with CSS
+                        </p>
+                        <ul class="assignment-list">
+                            <li>
+                                Developer Tools
+                            </li>
+                            <li>
+                                Typography and Custom Fonts
+                            </li>
+                            <li>
+                                Color Theory
+                            </li>
+                            <li>
+                                Hierarchy
+                            </li>
+                            <li>
+                                Grids
+                            </li>
+                        </ul>
+                        <p>
+                            Share Bio pages and MFI
+                        </p>
+                        <p>
+                            Discuss Reading
+                        </p>
+                        <h3>For Next Class</h3>
+                        <p>
+                            Make a Gallery (part 1)
+                        </p>
+                        <p>
+                            Read Ch 3 &amp; 4 of <em>Don't Make Me Think</em>
+                        </p>
+                        <p>
+                            My Favorite Internet
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 4 - Feb 22</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            Intro to Web Accessibility and Responsive Design
+                        </p>
+                        <ul class="assignment-list">
+                        </ul>
+                        <p>
+                            Name Quiz
+                        </p>
+                        <h3>For Next Class</h3>
+                        <p>
+                            Make a Gallery (part 2)
+                        </p>
+                        <p>
+                            Read Ch 1 of <em>Designing for Emotion</em>
+                        </p>
+                        <p>
+                            My Favorite Internet
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 5 - March 1</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            CSS Animations
+                        </p>
+                        <ul class="assignment-list">
+                        </ul>
+                        <h3>For Next Class</h3>
+                        <p>
+                            Make an animated drawing with CSS
+                        </p>
+                        <p>
+                            Read Ch 2 of <em>Designing for Emotion</em>
+                        </p>
+                        <p>
+                            My Favorite Internet
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 6 - March 8</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            Intro to JavaScript
+                        </p>
+                        <ul class="assignment-list">
+                        </ul>
+                        <h3>For Next Class</h3>
+                        <p>
+                            My Favorite Internet
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 7 - March 15</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            JavaScript Continued
+                        </p>
+                        <ul class="assignment-list">
+                        </ul>
+                        <h3>For Next Class</h3>
+                        <p>
+                            My Favorite Internet
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 8 - March 22</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            One-on-one meetings before midterms are due
+                        </p>
+                        <ul class="assignment-list">
+                        </ul>
+                        <h3>For Next Class</h3>
+                        <p>
+                            Work on Mid-term
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 9 - March 29</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            Mid-Term Projects Due - 10 minute presentations
+                        </p>
+                        <ul class="assignment-list">
+                        </ul>
+                        <h3>For Next Class</h3>
+                        <p>
+                            My Favorite Internet
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 10 - April 5</h2>
+                        <h3>In Class</h3>
+                        Gifs &amp; Animated Graphics
+                        <ul class="assignment-list">
+                            <li>
+                                Making gifs in Photoshop
+                            </li>
+                            <li>
+                                HTML5 video
+                            </li>
+                            <li>
+                                Managing file sizes
+                            </li>
+                        </ul>
+                        <h3>For Next Class</h3>
+                        <p>
+                            My Favorite Internet
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 11 - April 19</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            Intro to JS Libraries
+                        </p>
+                        <ul class="assignment-list">
+                        </ul>
+                        <h3>For Next Class</h3>
+                        <p>
+                            My Favorite Internet
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 12 - April 26</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            Processing.js
+                        </p>
+                        <ul class="assignment-list">
+                        </ul>
+                        <h3>For Next Class</h3>
+                        <p>
+                            My Favorite Internet
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 13 - May 3</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            Processing.js
+                        </p>
+                        <ul class="assignment-list">
+                        </ul>
+                        <h3>For Next Class</h3>
+                        <p>
+                            My Favorite Internet
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 14 - May 10</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            One-on-one meetings before finals are due
+                        </p>
+                        <h3>For Next Class</h3>
+                        <p>
+                            Work on Final Project
+                        </p>
+                    </div><!--end week-->
+                    <div class="week-item">
+                        <h2>Week 15 - May 17</h2>
+                        <h3>In Class</h3>
+                        <p>
+                            FINAL PROJECTS DUE!<BR>
+                            10 minute presentations
+                        </p>
+                    </div><!--end week-->
+                </section>
+            </div><!--close main-->
+
+            <footer>
+                <img class="fit-logo" src="imgs/FITlogo.png">
+                <p>
+                    <a href="http://www.teresaflourlamb.com/">Teresa Lamb</a><br>
+                    Adjunct Instructor<br>
+                    <a href="http://www.fitnyc.edu/">Fashion Institue of Technology</a><br>
+                    School of Art &amp; Design<br>
+                    Computer Graphics Department
+                </p>
+            </footer>
+
+        </div><!--close container-->
     </body>
 </html>

@@ -1,44 +1,120 @@
-body{
-    font-family: sans-serif;container
+/*---GENERAL---*/
+body {
+    font-family: 'Rubik', sans-serif;
+    color: #30343F;
 }
-#container{
+#container {
     width: 80%;
     margin: auto;
+    max-width: 1024px;
 }
-header{
-    border-bottom: 3px solid #36d7b7;
-    margin: 0 0 40px 0;
-}
-h2 {
-    color: #F2784B;
-}
-h3 {
-    color: #10BA98;
-}
+
+/*---TYPOGRAPHY---*/
 p {
     max-width: 700px;
 }
 a {
+    color: #7EBDC2;
     text-decoration: none;
-    color: #3498DB;
 }
 a:hover {
-    font-style: italic;
-    color: #006494;
+    color: #38369A;
+    border-bottom: 2px solid #38369A;
 }
-img{
-    width: 300px;
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #B7C8CE;
+    padding: 0 0 20px 0;
+    display: inline-block;
+    border-bottom: 2px solid #D5DFE2;
 }
-#week-list {
-    list-style: none;
-    padding: 0;
+h2 {
+    color: #7EBDC2;
+}
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/*---HEADER---*/
+header {
+    height: 90px;
+    border-bottom: 2px solid #D5DFE2;
+}
+#logo {
+    padding: 16px 0;
+    float: left;
+    height: 60px;
+    font-size: 50px;
+    font-weight: 500;
+    color: #30343F;
+    text-decoration: none;
+}
+#logo-svg {
+    width: 50px;
+    padding: 0 0 6px 0;
+    vertical-align: bottom;
+}
+#logo:hover {
+    font-style: normal;
+    color: #38369A;
+}
+#nav {
+    float: right;
+}
+#nav a {
+    color: #B7C8CE;
+	font-size: 1rem;
+    font-weight: 400;
+	display: inline-block;
+  	margin: 48px 0 0 40px;
+	padding: 0;
+}
+#nav a:hover {
+    color: #38369A;
+}
+
+/*---MAIN---*/
+#main {
+    padding: 16px 0 0 0;
+    border-bottom: 2px solid #D5DFE2;
+}
+.label {
+    font-weight: 500;
+}
+.link-svg {
+    height: 20px;
+    vertical-align: bottom;
+    padding: 10px 6px 0 0;
+}
+section {
+    padding: 0 0 20px 0;
 }
 .week-item {
-    background-color: #eee;
-    padding: 10px 32px 32px;
-    margin: 32px;
+    padding: 0 0 16px 0;
 }
-.screenshot {
-    width: 800px;
-    max-width: 100%;
+.gen-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.gen-list li {
+    padding: 0 0 16px 0;
+}
+
+/*---FOOTER---*/
+footer p{
+    display: block;
+    float: left;
+    color: #B7C8CE;
+}
+footer a {
+    color: #B7C8CE;
+    font-weight: 500;
+}
+.fit-logo {
+    width: 50px;
+    padding: 1rem 1rem 0 0;
+    float: left;
 }
