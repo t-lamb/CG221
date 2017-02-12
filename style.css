@@ -8,10 +8,14 @@ body {
     margin: auto;
     max-width: 1024px;
 }
+img {
+    max-width: 100%;
+}
 
 /*---TYPOGRAPHY---*/
 p {
     max-width: 700px;
+    line-height: 1.25;
 }
 a {
     color: #7EBDC2;
