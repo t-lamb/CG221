@@ -4,9 +4,9 @@ body {
     color: #30343F;
 }
 #container {
-    width: 80%;
+    width: 90%;
     margin: auto;
-    max-width: 1024px;
+    max-width: 50rem;
 }
 img {
     max-width: 100%;
@@ -14,7 +14,7 @@ img {
 
 /*---TYPOGRAPHY---*/
 p {
-    max-width: 700px;
+    max-width: 33rem;
     line-height: 1.25;
 }
 a {
