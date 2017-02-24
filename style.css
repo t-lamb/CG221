@@ -40,6 +40,9 @@ h4 {
     font-weight: 500;
     font-size: 16px;
 }
+.indent {
+    margin-left: 2rem;
+}
 
 /*---HEADER---*/
 header {
