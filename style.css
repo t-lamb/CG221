@@ -43,7 +43,9 @@ h4 {
 .indent {
     margin-left: 2rem;
 }
-
+ul {
+    max-width: 33rem;
+}
 /*---HEADER---*/
 header {
     height: 90px;
