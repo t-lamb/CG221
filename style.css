@@ -46,6 +46,9 @@ h4 {
 ul {
     max-width: 33rem;
 }
+li {
+    padding: 0 0 0.5rem 0;
+}
 /*---HEADER---*/
 header {
     height: 90px;
