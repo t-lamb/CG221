@@ -8,8 +8,6 @@ Design and Authoring for Interactive Media at FIT
 
 Casey Rosales <a href="https://crosales97.github.io/CG221/">Website</a> | <a href="https://github.com/crosales97/CG221">Github</a>
 <br>
-Genny Cruz <a href="https://genny1.github.io/cg221-/">Website</a> | <a href="https://github.com/genny1">Github</a>
-<br>
 Gina Ienopoli <a href="https://ginaienopoli.github.io/CG221/">Website</a> | <a href="https://github.com/ginaienopoli/CG221">Github</a>
 <br>
 Hellen <a href="https://yenhwi.github.io/CG221/">Website</a> | <a href="https://github.com/yenhwi/CG221">Github</a>
